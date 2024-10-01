@@ -49,6 +49,9 @@ const AboutUs = () => {
         </nav>
         {menuOpen && (
           <div className="md:hidden bg-blue-700 p-4">
+            <Link href="/" className="block text-white hover:text-blue-200 mb-2">
+              Home  
+            </Link>
             <Link href="/about" className="block text-white hover:text-blue-200 mb-2">
               About Us
             </Link>

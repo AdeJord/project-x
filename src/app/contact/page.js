@@ -33,6 +33,7 @@ export default function ContactUs() {
         </nav>
         {menuOpen && (
           <div className="md:hidden bg-blue-800 p-4">
+            <Link href="/" className="block text-white mb-2 hover:text-blue-300">Home</Link>
             <Link href="/about" className="block text-white mb-2 hover:text-blue-300">About Us</Link>
             <Link href="/services" className="block text-white mb-2 hover:text-blue-300">Our Services</Link>
             <Link href="/contact" className="block text-white hover:text-blue-300">Contact Us</Link>
