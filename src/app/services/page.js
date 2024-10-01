@@ -20,12 +20,12 @@ const Services = () => {
     {
       title: "Data Security & Accessibility",
       description:
-        "Your data is critical, and we ensure it’s stored securely while being easily accessible to your team when they need it. Our PWAs offer safe, cloud-based data storage with controlled access.",
+        "Your data is critical, and we ensure its stored securely while being easily accessible to your team when they need it. Our PWAs offer safe, cloud-based data storage with controlled access.",
     },
     {
       title: "Offline Functionality",
       description:
-        "Our PWAs work even when you’re offline. Your business operations won’t come to a halt just because of an unreliable internet connection. This ensures your workflows stay intact, no matter the situation.",
+        "Our PWAs work even when youre offline. Your business operations won’t come to a halt just because of an unreliable internet connection. This ensures your workflows stay intact, no matter the situation.",
     },
     {
       title: "Custom Solutions",
