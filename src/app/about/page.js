@@ -83,12 +83,12 @@ const AboutUs = () => {
 
           <h2 className="text-3xl font-semibold mt-12 mb-4">Our Mission</h2>
           <p className="text-lg mb-6">
-            Our mission is to empower businesses by simplifying their operational workflows through scalable, cost-effective digital solutions. Whether it&apos;s reducing reliance on paperwork or helping you organize and store your data digitally, we are committed to helping you run your business more efficiently with the help of PWAs.
+            Our mission is to empower businesses by simplifying their operational workflows through scalable, cost-effective digital solutions. Whether it`&apos;`s reducing reliance on paperwork or helping you organize and store your data digitally, we are committed to helping you run your business more efficiently with the help of PWAs.
           </p>
 
           <h2 className="text-3xl font-semibold mt-12 mb-4">Who We Help</h2>
           <p className="text-lg mb-6">
-            We focus on small and new businesses, particularly those who rely heavily on paperwork and manual data duplication. These outdated methods not only pose a risk of losing important information but also require expensive storage solutions. If you're ready to streamline your business processes and cut down on unnecessary expenses, we are re here to help.
+            We focus on small and new businesses, particularly those who rely heavily on paperwork and manual data duplication. These outdated methods not only pose a risk of losing important information but also require expensive storage solutions. If you`&apos;`re ready to streamline your business processes and cut down on unnecessary expenses, we are here to help.
           </p>
           <p className="text-lg mb-6">
             As part of our approach, we often spend time in the working environment to fully understand your pain points and identify areas where a PWA can make the biggest impact. We believe that being hands-on in understanding your business leads to more effective and tailored solutions.
@@ -96,12 +96,12 @@ const AboutUs = () => {
 
           <h2 className="text-3xl font-semibold mt-12 mb-4">Our Philosophy</h2>
           <p className="text-lg mb-6">
-            We run <strong>Project-X</strong> with a simple, friendly approach: we do our very best to help businesses thrive. We believe that creating strong, efficient systems doesn't have to be complicated or expensive. We're here to ensure that the digital solutions we provide are easy to use, affordable, and scalable to your business's needs.
+            We run <strong>Project-X</strong> with a simple, friendly approach: we do our very best to help businesses thrive. We believe that creating strong, efficient systems doesn`&apos;`t have to be complicated or expensive. We`&apos;`re here to ensure that the digital solutions we provide are easy to use, affordable, and scalable to your business`&apos;`s needs.
           </p>
 
           <h2 className="text-3xl font-semibold mt-12 mb-4">Ready to Go Digital?</h2>
           <p className="text-lg mb-6">
-            If you're a business owner looking to streamline your operations and reduce reliance on outdated processes, we&aposd love to discuss how <strong>Project-X</strong> can help. Our PWAs offer the perfect solution to modernize your business, reduce paperwork, and ensure your operations run smoothly.
+            If you`&apos;`re a business owner looking to streamline your operations and reduce reliance on outdated processes, we`&apos;`d love to discuss how <strong>Project-X</strong> can help. Our PWAs offer the perfect solution to modernize your business, reduce paperwork, and ensure your operations run smoothly.
           </p>
 
           <div className="mt-12">

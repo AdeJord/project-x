@@ -153,7 +153,7 @@ export default function Home() {
           Ready to transform your business with a PWA?
         </h2>
         <p className="mt-4 text-base md:text-lg">
-          Let's discuss how we can help you streamline your operations with an
+          Let`&apos;`s discuss how we can help you streamline your operations with an
           affordable, scalable solution.
         </p>
         <a
