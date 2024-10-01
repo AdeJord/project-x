@@ -45,7 +45,7 @@ export default function ContactUs() {
         <div className="max-w-5xl mx-auto py-16 px-6">
           <h1 className="text-4xl font-bold mb-10 text-center">Contact Us</h1>
           <p className="text-lg mb-10 text-center">
-            We"&apos;"d love to hear from you! Whether you have a question about services, pricing, or anything else, our team is ready to help.
+            We&apos;d love to hear from you! Whether you have a question about services, pricing, or anything else, our team is ready to help.
           </p>
 
           {/* Contact Form */}
