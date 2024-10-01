@@ -25,12 +25,12 @@ const Services = () => {
     {
       title: "Offline Functionality",
       description:
-        "Our PWAs work even when youre offline. Your business operations won’t come to a halt just because of an unreliable internet connection. This ensures your workflows stay intact, no matter the situation.",
+        "Our PWAs work even when youre offline. Your business operations wont come to a halt just because of an unreliable internet connection. This ensures your workflows stay intact, no matter the situation.",
     },
     {
       title: "Custom Solutions",
       description:
-        "We offer tailored solutions based on your business needs. Whether you’re looking for simple workflow optimization or a complex system overhaul, we work with you to develop a PWA that suits your business.",
+        "We offer tailored solutions based on your business needs. Whether you&aposre looking for simple workflow optimization or a complex system overhaul, we work with you to develop a PWA that suits your business.",
     },
   ];
 
