@@ -44,7 +44,7 @@ export default function Home() {
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-600 text-white text-center p-8 md:p-20 mt-16">
         <div className="absolute inset-0 bg-[url('/path/to/abstract-pattern.png')] bg-cover opacity-20"></div>
         <h1 className="text-3xl md:text-4xl font-bold relative z-10">
-          Empowering Small Businesses with Affordable, Cross-Platform PWAs
+          Empowering Growing Businesses with Affordable, Cross-Platform PWAs
         </h1>
         <p className="mt-4 text-base md:text-lg relative z-10">
           Say goodbye to the high costs of native apps. Our Progressive Web Apps
