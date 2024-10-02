@@ -16,11 +16,12 @@ export default function Header() {
         >
           Smart PWA Solutions
         </Link>
+        <p className="text-base font-light text-white">
+          Affordable, Cross-Platform Web Solutions
+        </p>
+
         <div className="hidden md:flex space-x-4">
-          <Link
-            href="/"
-            className="text-white hover:text-blue-300 transition"
-          >
+          <Link href="/" className="text-white hover:text-blue-300 transition">
             Home
           </Link>
 
