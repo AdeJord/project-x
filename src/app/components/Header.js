@@ -14,7 +14,7 @@ export default function Header() {
           href="/"
           className="text-2xl font-bold text-white transition hover:scale-105"
         >
-          Project-X
+          Smart PWA Solutions
         </Link>
         <div className="hidden md:flex space-x-4">
           <Link
