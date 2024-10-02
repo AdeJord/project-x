@@ -1,9 +1,11 @@
-"use client"; // Client-side component
+// app/page.js
+"use client";
 
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css"; // Swiper styles
 import "swiper/css/pagination"; // Optional for pagination
+import "swiper/css/navigation"; // Optional for navigation
 
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -38,67 +40,6 @@ export default function Home() {
 
   return (
     <div className="bg-white min-h-screen">
-      {/* Navigation Bar */}
-      <div className="bg-gradient-to-r from-blue-800 to-indigo-600 p-4 shadow-md fixed w-full top-0 z-50">
-        <nav className="max-w-6xl mx-auto flex justify-between items-center">
-          <div className="text-xl font-bold text-white">Project-X</div>
-          <div className="hidden md:flex space-x-4">
-            <a href="/about" className="text-white hover:text-blue-200">
-              About Us
-            </a>
-            <a href="/services" className="text-white hover:text-blue-200">
-              Our Services
-            </a>
-            <a href="/contact" className="text-white hover:text-blue-200">
-              Contact Us
-            </a>
-          </div>
-          <div className="md:hidden">
-            <button
-              onClick={() => setMenuOpen(!menuOpen)}
-              className="text-white focus:outline-none"
-            >
-              <svg
-                className="w-6 h-6"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                ></path>
-              </svg>
-            </button>
-          </div>
-        </nav>
-        {menuOpen && (
-          <div className="md:hidden bg-blue-700 p-4">
-            <a href="/" className="block text-white hover:text-blue-200 mb-2">
-              Home
-            </a>
-            <a
-              href="/about"
-              className="block text-white hover:text-blue-200 mb-2"
-            >
-              About Us
-            </a>
-            <a
-              href="/services"
-              className="block text-white hover:text-blue-200 mb-2"
-            >
-              Our Services
-            </a>
-            <a href="/contact" className="block text-white hover:text-blue-200">
-              Contact Us
-            </a>
-          </div>
-        )}
-      </div>
-
       {/* Hero Section */}
       <div className="relative bg-gradient-to-r from-blue-800 to-indigo-600 text-white text-center p-8 md:p-20 mt-16">
         <div className="absolute inset-0 bg-[url('/path/to/abstract-pattern.png')] bg-cover opacity-20"></div>
@@ -126,11 +67,7 @@ export default function Home() {
 
         {/* Swiper Carousel for Mobile */}
         <div className="block md:hidden">
-          <Swiper
-            spaceBetween={30}
-            slidesPerView={1}
-            pagination={{ clickable: true }}
-          >
+          <Swiper spaceBetween={30} slidesPerView={1} pagination={{ clickable: true }}>
             {features.map((feature, index) => (
               <SwiperSlide key={index}>
                 <div className="bg-white p-6 rounded-lg shadow-lg transform transition-all duration-300 hover:scale-110 hover:bg-gradient-to-b hover:from-blue-300 hover:to-blue-800 hover:text-white hover:shadow-[0_35px_60px_-15px_rgba(0,0,0,1)]">
@@ -162,7 +99,7 @@ export default function Home() {
           Ready to transform your business with a PWA?
         </h2>
         <p className="mt-4 text-base md:text-lg">
-          Let`&apos;`s discuss how we can help you streamline your operations
+          Let’s discuss how we can help you streamline your operations
           with an affordable, scalable solution.
         </p>
         <a
