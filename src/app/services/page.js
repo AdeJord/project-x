@@ -1,4 +1,3 @@
-// app/services/page.js
 "use client";
 
 import Header from '../components/Header'; // Import Header
@@ -30,8 +29,12 @@ export default function Services() {
       description:
         "We offer tailored solutions based on your business needs. Whether you're looking for simple workflow optimization or a complex system overhaul, we work with you to develop a PWA that suits your business.",
     },
+    {
+      title: "Integration Services",
+      description:
+        "We offer seamless integration with your existing systems, ensuring that our PWAs work effortlessly with your current software infrastructure.",
+    },
   ];
-  
 
   return (
     <div className="pt-10 bg-gradient-to-b from-blue-700 to-indigo-600 text-white min-h-screen">
@@ -42,7 +45,8 @@ export default function Services() {
           {services.map((service, index) => (
             <div
               key={index}
-              className="bg-white p-6 rounded-lg shadow-lg text-blue-800"
+              className="bg-white p-6 rounded-lg shadow-lg text-blue-800 transform transition-all duration-300 hover:scale-110 hover:bg-gradient-to-b hover:from-blue-300 hover:to-blue-800 hover:text-white"
+              style={{ backgroundColor: '#f8fafc' }} // Ensure background color on non-hover
             >
               <h3 className="text-2xl font-semibold mb-4">{service.title}</h3>
               <p>{service.description}</p>
@@ -50,6 +54,13 @@ export default function Services() {
           ))}
         </div>
       </div>
+
+      {/* Footer Section */}
+      <footer className="bg-gradient-to-b from-indigo-600 to-blue-900 text-white text-center p-8 md:p-12 mt-6">
+        <p className="text-sm md:text-base">
+          &copy; {new Date().getFullYear()} SmartAppSolutions. All Rights Reserved.
+        </p>
+      </footer>
     </div>
   );
 }
